@@ -10,6 +10,12 @@ public class ArrayProcessing implements DivisionArray {
     @Override
     public int[] division_into_three() {
 
+        for (int i = 0; i < 16; i++) {
+            if(arr[i]%3==0){
+                
+            }
+        }
+
         return new int[0];
     }
 
