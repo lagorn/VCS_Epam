@@ -1,9 +1,7 @@
+import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Постоянство усилий дают результат!");
-        System.out.println("Hello World!");
-        System.out.println("Hello World!");
-        System.out.println("Ненавижу git");
-        System.out.println("Непонятно");
+        int [] arrai = {2,3,77,5,8,9,6,12,21,58,64,73,81,92,112,120,137};
+        ArrayProcessing array_new = new ArrayProcessing(arrai);
     }
 }
