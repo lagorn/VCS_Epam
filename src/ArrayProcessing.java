@@ -8,7 +8,7 @@ public class ArrayProcessing implements DivisionArray {
     }
 
     @Override
-    public int[] division_into_three() {
+    public int[] division_into_three(int[] arr) {
 
         int [] arrnew = new int[arr.length];
         int k = 0;
@@ -18,21 +18,19 @@ public class ArrayProcessing implements DivisionArray {
                 arrnew[k] = arr[i];
                 k++;
             }
-
-
-
         }
+        
 
         return new int[0];
     }
 
     @Override
-    public int[] division_into_seven() {
+    public int[] division_into_seven(int[] arr) {
         return new int[0];
     }
 
     @Override
-    public int[] division_into_twenty_one() {
+    public int[] division_into_twenty_one(int[] arr) {
         return new int[0];
     }
 }
